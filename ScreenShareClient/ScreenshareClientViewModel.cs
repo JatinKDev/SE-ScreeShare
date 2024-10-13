@@ -1,4 +1,4 @@
-/// <summary>
+﻿/// <summary>
 /// Contains view model for screenshare client.
 /// </summary>
 
@@ -7,6 +7,7 @@ using System;
 using System.ComponentModel;
 using System.Windows;
 using System.Windows.Threading;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace ScreenShare.Client
 {

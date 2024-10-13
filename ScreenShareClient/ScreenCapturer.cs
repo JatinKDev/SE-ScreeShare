@@ -1,4 +1,4 @@
-///<summary> 
+﻿///<summary> 
 ///This file contains the ScreenCapturer Class that implements the
 ///screen capturing functionality. It is used by ScreenshareClient. 
 ///</summary>
@@ -9,6 +9,7 @@ using System.Diagnostics;
 using System.Drawing;
 using System.Threading;
 using System.Threading.Tasks;
+using ScreenShare.DataHandling;
 
 namespace ScreenShare.Client
 {

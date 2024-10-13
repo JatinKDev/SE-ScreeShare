@@ -11,6 +11,7 @@ using System.Diagnostics;
 using System.Text.Json;
 using System.Threading.Tasks;
 using System.Timers;
+using ScreenShare.DataHandling;
 
 namespace ScreenShare.Client
 {

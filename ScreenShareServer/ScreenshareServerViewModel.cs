@@ -13,6 +13,8 @@ using System.Linq;
 using System.Windows;
 using System.Windows.Media.Imaging;
 using System.Windows.Threading;
+using static System.Net.Mime.MediaTypeNames;
+using ScreenShare.DataHandling;
 
 namespace ScreenShare.Server
 {

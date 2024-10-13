@@ -11,7 +11,7 @@ using System.Drawing;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Media.Imaging;
-
+using ScreenShare.DataHandling;
 // The Timer class object.
 using Timer = System.Timers.Timer;
 

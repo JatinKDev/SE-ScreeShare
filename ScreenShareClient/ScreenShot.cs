@@ -1,10 +1,11 @@
-///<summary> This file contains the Screenshot Class that implements the screenshot functionality. ///</summary>///<reference> https://github.com/0x2E757/ScreenCapturer ///</reference>
+﻿///<summary> This file contains the Screenshot Class that implements the screenshot functionality. ///</summary>///<reference> https://github.com/0x2E757/ScreenCapturer ///</reference>
 ///<reference> https://github.com/sharpdx/SharpDX-Samples/blob/master/Desktop/Direct3D11.1/ScreenCapture/Program.cs ///</reference>
 
 using SharpDX;
 using SharpDX.Direct3D11;
 using SharpDX.DXGI;
 using System;
+using System.Data;
 using System.Diagnostics;
 using System.Drawing;
 using System.Drawing.Imaging;
@@ -12,7 +13,7 @@ using Device = SharpDX.Direct3D11.Device;
 using MapFlags = SharpDX.Direct3D11.MapFlags;
 using Resource = SharpDX.DXGI.Resource;
 
-
+using ScreenShare.DataHandling;
 namespace ScreenShare.Client
 {
     /// <summary>
