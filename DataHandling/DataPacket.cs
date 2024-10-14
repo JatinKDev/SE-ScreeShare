@@ -3,6 +3,7 @@
 /// from server to client or the other way.
 /// </summary>
 
+using System.Collections.Generic;
 using System.Text.Json.Serialization;
 
 namespace ScreenShare.DataHandling

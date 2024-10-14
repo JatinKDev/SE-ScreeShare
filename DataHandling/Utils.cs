@@ -3,14 +3,12 @@
 /// the difference in the pixel and the resolution of image. It also has some other
 /// general utilities.
 ///</summary>
-using System.Windows.Media.Imaging;
-using System;
+
 using System.Diagnostics;
 using System.Drawing;
 using System.Drawing.Imaging;
-using System.IO;
-using System.Drawing ;
-//using System.Windows.Media.Imaging;
+//using Windows.UI.Xaml.Media.Imaging;
+using System.Windows.Media.Imaging;
 
 namespace ScreenShare.DataHandling
 {
@@ -47,7 +45,7 @@ namespace ScreenShare.DataHandling
             string className = stackFrame?.GetMethod()?.DeclaringType?.Name ?? "SharedClientScreen";
             string methodName = stackFrame?.GetMethod()?.Name ?? "GetDebugMessage";
 
-            string prefix = withTimeStamp ? $"{DateTimeOffset.Now:F} | " : "";
+            string prefix = withTimeStamp ? $"{System.DateTimeOffset.Now:F} | " : "";
 
             return $"{prefix}[{className}::{methodName}] : {message}";
         }
@@ -64,7 +62,7 @@ namespace ScreenShare.DataHandling
         public static BitmapSource BitmapToBitmapSource(this Bitmap bitmap)
         {
             // Create new memory stream to temporarily save the bitmap there
-            using MemoryStream stream = new();
+            using System.IO.MemoryStream stream = new();
             bitmap.Save(stream, ImageFormat.Bmp);
 
             // Create a new BitmapSource and populate it with Bitmap
@@ -104,7 +102,7 @@ namespace ScreenShare.DataHandling
                 encoder.Frames.Add(BitmapFrame.Create(bitmapSource));
 
                 // Save the encoder temporarily to a memory stream
-                using MemoryStream memoryStream = new();
+                using System.IO.MemoryStream memoryStream = new();
                 encoder.Save(memoryStream);
                 memoryStream.Position = 0;
 
@@ -117,7 +115,7 @@ namespace ScreenShare.DataHandling
             return bitmapImage;
         }
 
-        /// <summary>
+        /// <summar
         /// Convert an object of "Bitmap" to an object of "BitmapImage"
         /// </summary>
         /// <param name="bitmap">
