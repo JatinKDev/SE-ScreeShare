@@ -1,0 +1,6 @@
+E:\SE-ScreeShare\DataHandling\obj\Debug\net8.0\DataHandling.csproj.AssemblyReference.cache
+E:\SE-ScreeShare\DataHandling\obj\Debug\net8.0\DataHandling.GeneratedMSBuildEditorConfig.editorconfig
+E:\SE-ScreeShare\DataHandling\obj\Debug\net8.0\DataHandling.AssemblyInfoInputs.cache
+E:\SE-ScreeShare\DataHandling\obj\Debug\net8.0\DataHandling.AssemblyInfo.cs
+E:\SE-ScreeShare\DataHandling\obj\Debug\net8.0\DataHandling.csproj.CoreCompileInputs.cache
+E:\SE-ScreeShare\DataHandling\obj\Debug\net8.0\DataHandling.sourcelink.json

@@ -128,19 +128,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hp\\.nuget\\packages\\": {}
+    "C:\\Users\\abhin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp\\Desktop\\SE-ScreenShare-new\\DataHandling\\DataHandling.csproj",
+      "projectUniqueName": "E:\\SE-ScreeShare\\DataHandling\\DataHandling.csproj",
       "projectName": "DataHandling",
-      "projectPath": "C:\\Users\\hp\\Desktop\\SE-ScreenShare-new\\DataHandling\\DataHandling.csproj",
-      "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hp\\Desktop\\SE-ScreenShare-new\\DataHandling\\obj\\",
+      "projectPath": "E:\\SE-ScreeShare\\DataHandling\\DataHandling.csproj",
+      "packagesPath": "C:\\Users\\abhin\\.nuget\\packages\\",
+      "outputPath": "E:\\SE-ScreeShare\\DataHandling\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\abhin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -192,7 +192,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

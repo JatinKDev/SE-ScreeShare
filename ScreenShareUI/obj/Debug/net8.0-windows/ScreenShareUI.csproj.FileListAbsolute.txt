@@ -1,0 +1,6 @@
+E:\SE-ScreeShare\ScreenShareUI\obj\Debug\net8.0-windows\ScreenShareUI.csproj.AssemblyReference.cache
+E:\SE-ScreeShare\ScreenShareUI\obj\Debug\net8.0-windows\ScreenShareClient.g.cs
+E:\SE-ScreeShare\ScreenShareUI\obj\Debug\net8.0-windows\ScreenShareServer.g.cs
+E:\SE-ScreeShare\ScreenShareUI\obj\Debug\net8.0-windows\App.g.cs
+E:\SE-ScreeShare\ScreenShareUI\obj\Debug\net8.0-windows\ScreenShareUI_MarkupCompile.cache
+E:\SE-ScreeShare\ScreenShareUI\obj\Debug\net8.0-windows\ScreenShareUI_MarkupCompile.lref

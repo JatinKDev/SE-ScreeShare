@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\Desktop\\SE-ScreenShare-new\\ScreenShareClient\\ScreenShareClient.csproj": {}
+    "E:\\SE-ScreeShare\\ScreenShareClient\\ScreenShareClient.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\Desktop\\SE-ScreenShare-new\\DataHandling\\DataHandling.csproj": {
+    "E:\\SE-ScreeShare\\DataHandling\\DataHandling.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Desktop\\SE-ScreenShare-new\\DataHandling\\DataHandling.csproj",
+        "projectUniqueName": "E:\\SE-ScreeShare\\DataHandling\\DataHandling.csproj",
         "projectName": "DataHandling",
-        "projectPath": "C:\\Users\\hp\\Desktop\\SE-ScreenShare-new\\DataHandling\\DataHandling.csproj",
-        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Desktop\\SE-ScreenShare-new\\DataHandling\\obj\\",
+        "projectPath": "E:\\SE-ScreeShare\\DataHandling\\DataHandling.csproj",
+        "packagesPath": "C:\\Users\\abhin\\.nuget\\packages\\",
+        "outputPath": "E:\\SE-ScreeShare\\DataHandling\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\abhin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -66,21 +66,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\hp\\Desktop\\SE-ScreenShare-new\\ScreenShareClient\\ScreenShareClient.csproj": {
+    "E:\\SE-ScreeShare\\ScreenShareClient\\ScreenShareClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Desktop\\SE-ScreenShare-new\\ScreenShareClient\\ScreenShareClient.csproj",
+        "projectUniqueName": "E:\\SE-ScreeShare\\ScreenShareClient\\ScreenShareClient.csproj",
         "projectName": "ScreenShareClient",
-        "projectPath": "C:\\Users\\hp\\Desktop\\SE-ScreenShare-new\\ScreenShareClient\\ScreenShareClient.csproj",
-        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Desktop\\SE-ScreenShare-new\\ScreenShareClient\\obj\\",
+        "projectPath": "E:\\SE-ScreeShare\\ScreenShareClient\\ScreenShareClient.csproj",
+        "packagesPath": "C:\\Users\\abhin\\.nuget\\packages\\",
+        "outputPath": "E:\\SE-ScreeShare\\ScreenShareClient\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\abhin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -94,8 +94,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\hp\\Desktop\\SE-ScreenShare-new\\DataHandling\\DataHandling.csproj": {
-                "projectPath": "C:\\Users\\hp\\Desktop\\SE-ScreenShare-new\\DataHandling\\DataHandling.csproj"
+              "E:\\SE-ScreeShare\\DataHandling\\DataHandling.csproj": {
+                "projectPath": "E:\\SE-ScreeShare\\DataHandling\\DataHandling.csproj"
               }
             }
           }
@@ -144,7 +144,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
