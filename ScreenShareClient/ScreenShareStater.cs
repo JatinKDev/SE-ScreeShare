@@ -1,4 +1,4 @@
-﻿bt///<summary> 
+﻿///<summary> 
 /// This file has ScreenshareClient class's partial implementation
 /// In this file functions realted to starting of ScreenCapturing 
 /// are implemented
@@ -152,6 +152,8 @@ namespace ScreenShare.Client
         /// Otherwise, if the message was STOP then just stop the image sending part
         /// </summary>
         /// <param name="serializedData"> Serialized data from the network module </param>
+        /// 
+        /*
         public void OnDataReceived(string serializedData)
         {
             // Deserializing data packet received from server
@@ -190,6 +192,63 @@ namespace ScreenShare.Client
                 // Else it was some invalid packet so add a debug message
                 Debug.Assert(false,
                     Utils.GetDebugMessage("Header from server is neither SEND, STOP nor CONFIRMATION"));
+            }
+        }
+
+        */
+
+        public void OnDataReceived(string serializedData)
+        {
+            // Deserializing data packet received from server
+            Debug.Assert(serializedData != "", Utils.GetDebugMessage("Message from server found null", withTimeStamp: true));
+            DataPacket? dataPacket = JsonSerializer.Deserialize<DataPacket>(serializedData);
+            Debug.Assert(dataPacket != null, Utils.GetDebugMessage("Unable to deserialize DataPacket from server", withTimeStamp: true));
+            Trace.WriteLine(Utils.GetDebugMessage("Successfully received packet from server", withTimeStamp: true));
+
+            // Check for the header in the received DataPacket
+            if (dataPacket?.Header == ServerDataHeader.Send.ToString())
+            {
+                // If it is a SEND packet, start image sending (if not already started) and set resolution
+                Trace.WriteLine(Utils.GetDebugMessage("Got SEND packet from server", withTimeStamp: true));
+
+                // Starting capturer, processor, and image sending
+                StartImageSending();
+
+                // Check if full image is being sent or only the changed pixels
+                if (dataPacket.IsFull && dataPacket.Image != null)
+                {
+                    // Full image is being sent, so set the new image and its resolution
+                    int resolution = CalculateResolutionFromImage(dataPacket.Image);
+                    _processor.SetNewResolution(resolution);
+                    Trace.WriteLine(Utils.GetDebugMessage("Successfully set the new resolution from full image", withTimeStamp: true));
+                }
+                else if (dataPacket.IsChange && dataPacket.ChangedPixels != null)
+                {
+                    // Only changed pixels are sent, so apply changes
+                    ApplyPixelChanges(dataPacket.ChangedPixels);
+                    Trace.WriteLine(Utils.GetDebugMessage("Successfully applied pixel changes", withTimeStamp: true));
+                }
+                else
+                {
+                    Debug.Assert(false, Utils.GetDebugMessage("Invalid SEND packet: no image or pixel changes", withTimeStamp: true));
+                }
+            }
+            else if (dataPacket?.Header == ServerDataHeader.Stop.ToString())
+            {
+                // If it was a STOP packet, stop image sending
+                Trace.WriteLine(Utils.GetDebugMessage("Got STOP packet from server", withTimeStamp: true));
+                StopImageSending();
+            }
+            else if (dataPacket?.Header == ServerDataHeader.Confirmation.ToString())
+            {
+                // If it was a CONFIRMATION packet, update the timer to the max value
+                Trace.WriteLine(Utils.GetDebugMessage("Got CONFIRMATION packet from server", withTimeStamp: true));
+                UpdateTimer();
+            }
+            else
+            {
+                // Invalid packet header
+                Debug.Assert(false, Utils.GetDebugMessage("Header from server is neither SEND, STOP, nor CONFIRMATION", withTimeStamp: true));
             }
         }
 

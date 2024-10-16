@@ -1,0 +1,13 @@
+F:\Software Engineering Project\SE-ScreeShare\DataHandling\bin\Debug\net8.0-windows\DataHandling.deps.json
+F:\Software Engineering Project\SE-ScreeShare\DataHandling\bin\Debug\net8.0-windows\DataHandling.dll
+F:\Software Engineering Project\SE-ScreeShare\DataHandling\bin\Debug\net8.0-windows\DataHandling.pdb
+F:\Software Engineering Project\SE-ScreeShare\DataHandling\obj\Debug\net8.0-windows\DataHandling.csproj.AssemblyReference.cache
+F:\Software Engineering Project\SE-ScreeShare\DataHandling\obj\Debug\net8.0-windows\DataHandling.GeneratedMSBuildEditorConfig.editorconfig
+F:\Software Engineering Project\SE-ScreeShare\DataHandling\obj\Debug\net8.0-windows\DataHandling.AssemblyInfoInputs.cache
+F:\Software Engineering Project\SE-ScreeShare\DataHandling\obj\Debug\net8.0-windows\DataHandling.AssemblyInfo.cs
+F:\Software Engineering Project\SE-ScreeShare\DataHandling\obj\Debug\net8.0-windows\DataHandling.csproj.CoreCompileInputs.cache
+F:\Software Engineering Project\SE-ScreeShare\DataHandling\obj\Debug\net8.0-windows\DataHandling.sourcelink.json
+F:\Software Engineering Project\SE-ScreeShare\DataHandling\obj\Debug\net8.0-windows\DataHandling.dll
+F:\Software Engineering Project\SE-ScreeShare\DataHandling\obj\Debug\net8.0-windows\refint\DataHandling.dll
+F:\Software Engineering Project\SE-ScreeShare\DataHandling\obj\Debug\net8.0-windows\DataHandling.pdb
+F:\Software Engineering Project\SE-ScreeShare\DataHandling\obj\Debug\net8.0-windows\ref\DataHandling.dll

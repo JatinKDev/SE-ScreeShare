@@ -93,7 +93,7 @@ namespace ScreenShareUI {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ScreenShareUI;V1.0.0.0;component/screenshareclient.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ScreenShareUI;component/screenshareclient.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\ScreenShareClient.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

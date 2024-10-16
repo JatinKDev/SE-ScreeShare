@@ -193,11 +193,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp\\Desktop\\SE-ScreeShare\\ScreenShareUI\\ScreenShareUI.csproj",
+      "projectUniqueName": "F:\\Software Engineering Project\\SE-ScreeShare\\ScreenShareUI\\ScreenShareUI.csproj",
       "projectName": "ScreenShareUI",
-      "projectPath": "C:\\Users\\hp\\Desktop\\SE-ScreeShare\\ScreenShareUI\\ScreenShareUI.csproj",
+      "projectPath": "F:\\Software Engineering Project\\SE-ScreeShare\\ScreenShareUI\\ScreenShareUI.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hp\\Desktop\\SE-ScreeShare\\ScreenShareUI\\obj\\",
+      "outputPath": "F:\\Software Engineering Project\\SE-ScreeShare\\ScreenShareUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -214,14 +214,14 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\hp\\Desktop\\SE-ScreeShare\\DataHandling\\DataHandling.csproj": {
-              "projectPath": "C:\\Users\\hp\\Desktop\\SE-ScreeShare\\DataHandling\\DataHandling.csproj"
+            "F:\\Software Engineering Project\\SE-ScreeShare\\DataHandling\\DataHandling.csproj": {
+              "projectPath": "F:\\Software Engineering Project\\SE-ScreeShare\\DataHandling\\DataHandling.csproj"
             },
-            "C:\\Users\\hp\\Desktop\\SE-ScreeShare\\ScreenShareClient\\ScreenShareClient.csproj": {
-              "projectPath": "C:\\Users\\hp\\Desktop\\SE-ScreeShare\\ScreenShareClient\\ScreenShareClient.csproj"
+            "F:\\Software Engineering Project\\SE-ScreeShare\\ScreenShareClient\\ScreenShareClient.csproj": {
+              "projectPath": "F:\\Software Engineering Project\\SE-ScreeShare\\ScreenShareClient\\ScreenShareClient.csproj"
             },
-            "C:\\Users\\hp\\Desktop\\SE-ScreeShare\\ScreenShareServer\\ScreenShareServer.csproj": {
-              "projectPath": "C:\\Users\\hp\\Desktop\\SE-ScreeShare\\ScreenShareServer\\ScreenShareServer.csproj"
+            "F:\\Software Engineering Project\\SE-ScreeShare\\ScreenShareServer\\ScreenShareServer.csproj": {
+              "projectPath": "F:\\Software Engineering Project\\SE-ScreeShare\\ScreenShareServer\\ScreenShareServer.csproj"
             }
           }
         }

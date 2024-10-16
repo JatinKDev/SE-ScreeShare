@@ -27,6 +27,7 @@ namespace ScreenShare.DataHandling
         /// <summary>
         // create instance with given values
         /// </param>
+        /// id is specific to the person , name is the name of the person , 
         [JsonConstructor]
         public DataPacket(string id, string name, string header, bool isChange, bool isFull, bool isStarted,
                           ref List<PixelDifference> changedPixels, ref byte[] image)
@@ -119,6 +120,7 @@ namespace ScreenShare.DataHandling
         /// <summary>
         /// constructor to set valuses
         /// </summary>
+        /// alpha is for the intensity of the pixel
         public PixelDifference(ushort x, ushort y, byte alpha, byte red, byte green, byte blue)
         {
             X = x;

@@ -4,3 +4,9 @@ E:\SE-ScreeShare\ScreenShareServer\obj\Debug\net8.0\ScreenShareServer.AssemblyIn
 E:\SE-ScreeShare\ScreenShareServer\obj\Debug\net8.0\ScreenShareServer.AssemblyInfo.cs
 E:\SE-ScreeShare\ScreenShareServer\obj\Debug\net8.0\ScreenShareServer.csproj.CoreCompileInputs.cache
 E:\SE-ScreeShare\ScreenShareServer\obj\Debug\net8.0\ScreenShareServer.sourcelink.json
+F:\Software Engineering Project\SE-ScreeShare\ScreenShareServer\obj\Debug\net8.0\ScreenShareServer.csproj.AssemblyReference.cache
+F:\Software Engineering Project\SE-ScreeShare\ScreenShareServer\obj\Debug\net8.0\ScreenShareServer.GeneratedMSBuildEditorConfig.editorconfig
+F:\Software Engineering Project\SE-ScreeShare\ScreenShareServer\obj\Debug\net8.0\ScreenShareServer.AssemblyInfoInputs.cache
+F:\Software Engineering Project\SE-ScreeShare\ScreenShareServer\obj\Debug\net8.0\ScreenShareServer.AssemblyInfo.cs
+F:\Software Engineering Project\SE-ScreeShare\ScreenShareServer\obj\Debug\net8.0\ScreenShareServer.csproj.CoreCompileInputs.cache
+F:\Software Engineering Project\SE-ScreeShare\ScreenShareServer\obj\Debug\net8.0\ScreenShareServer.sourcelink.json

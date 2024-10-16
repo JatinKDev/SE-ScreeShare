@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\Desktop\\SE-ScreeShare\\ScreenShareServer\\ScreenShareServer.csproj": {}
+    "F:\\Software Engineering Project\\SE-ScreeShare\\ScreenShareServer\\ScreenShareServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\Desktop\\SE-ScreeShare\\ScreenShareServer\\ScreenShareServer.csproj": {
+    "F:\\Software Engineering Project\\SE-ScreeShare\\ScreenShareServer\\ScreenShareServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Desktop\\SE-ScreeShare\\ScreenShareServer\\ScreenShareServer.csproj",
+        "projectUniqueName": "F:\\Software Engineering Project\\SE-ScreeShare\\ScreenShareServer\\ScreenShareServer.csproj",
         "projectName": "ScreenShareServer",
-        "projectPath": "C:\\Users\\hp\\Desktop\\SE-ScreeShare\\ScreenShareServer\\ScreenShareServer.csproj",
+        "projectPath": "F:\\Software Engineering Project\\SE-ScreeShare\\ScreenShareServer\\ScreenShareServer.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Desktop\\SE-ScreeShare\\ScreenShareServer\\obj\\",
+        "outputPath": "F:\\Software Engineering Project\\SE-ScreeShare\\ScreenShareServer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",

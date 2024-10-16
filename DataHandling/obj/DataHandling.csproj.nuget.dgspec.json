@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\Desktop\\SE-ScreeShare\\DataHandling\\DataHandling.csproj": {}
+    "F:\\Software Engineering Project\\SE-ScreeShare\\DataHandling\\DataHandling.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\Desktop\\SE-ScreeShare\\DataHandling\\DataHandling.csproj": {
+    "F:\\Software Engineering Project\\SE-ScreeShare\\DataHandling\\DataHandling.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Desktop\\SE-ScreeShare\\DataHandling\\DataHandling.csproj",
+        "projectUniqueName": "F:\\Software Engineering Project\\SE-ScreeShare\\DataHandling\\DataHandling.csproj",
         "projectName": "DataHandling",
-        "projectPath": "C:\\Users\\hp\\Desktop\\SE-ScreeShare\\DataHandling\\DataHandling.csproj",
+        "projectPath": "F:\\Software Engineering Project\\SE-ScreeShare\\DataHandling\\DataHandling.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Desktop\\SE-ScreeShare\\DataHandling\\obj\\",
+        "outputPath": "F:\\Software Engineering Project\\SE-ScreeShare\\DataHandling\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
